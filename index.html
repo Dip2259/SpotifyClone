@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify C</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="navbar">
+        <img src="Image/spotify-icon1.png" alt="">
+        <span>Spotify</span>
+        <ul>
+            <li>Home</li>
+            <li>Favourite</li>
+            <li>Playlist</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songContainer" style="margin-top: 25px;">
+                <div class="songpad">
+                    <img src="covers/1.jpg" alt="">
+                    <span class="songName">Assique Ae Gayi</span>
+                    <span id="maxTime">05:34<i id="1" class="far songPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songpad">
+                    <img src="covers/2.jpg" alt="">
+                    <span class="songName">Kusu Kusu</span>
+                    <span id="maxTime">05:34<i id="2" class="far songPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songpad">
+                    <img src="covers/3.jpg" alt="">
+                    <span class="songName">Bezubaan Fir Se</span>
+                    <span id="maxTime">05:34<i id="3" class="far songPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songpad">
+                    <img src="covers/3.jpg" alt="">
+                    <span class="songName">Bezubaan Fir Se</span>
+                    <span id="maxTime">05:34<i id="4" class="far songPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songpad">
+                    <img src="covers/3.jpg" alt="">
+                    <span class="songName">Bezubaan Fir Se</span>
+                    <span id="maxTime">05:34<i id="5" class="far songPlay fa-play-circle"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar">
+        <div class="icon">
+            <i class="fas fa-2x fa-step-backward"></i>
+            <i class="far fa-2x fa-play-circle" id="play"></i>
+            <i class="fas fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="Image/playing.gif" alt="" style="width: 40px;" id="gif">
+            <span id="Sname">Assique Ae Gayi</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/da0fde8de6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
